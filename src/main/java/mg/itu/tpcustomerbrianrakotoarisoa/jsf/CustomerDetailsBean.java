@@ -48,7 +48,7 @@ public class CustomerDetailsBean implements Serializable {
    * contenu dans la variable d'instance customer.
    * @return la prochaine page à afficher, celle qui affiche la liste des clients.
    */
-  public String update() {
+   public String update() {
     // Modifie la base de données.
     // Il faut affecter à customer (sera expliqué dans le cours).
     customer = customerManager.update(customer);
